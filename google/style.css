@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding:0;
+    
+}
+
+.google{
+    font-size:15px;
+    text-align:center;
+    margin-top:20px;
+   
+    
+}
+#googleSearch{
+    text-align:center;
+
+}
+.nav{
+ /* height:40px; */
+ /* width: 100%; */
+ /* position: fixed; */
+ display: flex;
+ 
+ 
+ justify-content: right;
+ 
+
+
+}
+.navElement{
+display:flex;
+  gap: 20px;
+    justify-content:space-between;
+    list-style: none;
+    margin-right:10px;
+    color:white;
+    margin-top: 20px;
+    font-family: "Poetsen One", sans-serif;
+    text-transform: capitalize;
+    
+
+
+    
+}
+.main{
+    background-image:url(sky.jpeg);
+    height:100vh;
+    background-size: cover;
+}
+
+.google{
+    color:white;
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: normal;
+  text-transform:capitalize;
+  font-size: 300%;
+  margin-top: 10%;
+}
+.searchBox{
+    position: relative;
+width:50%;
+background-color: white;
+align-items: center;
+border-radius: 20px;
+position: 50%;
+margin:auto;
+margin-top: 5%;
+
+
+}
+
+.googleSearch{
+    /* border-radius: 20px; */
+height:40px;
+font-size: 18px ;
+border: none;
+outline:none;
+padding-left:5px;
+position: relative;
+width:80%;
+
+
+
+
+    
+   
+}
+.navElement a{
+    color:white;
+    text-decoration: none;
+}
+.fa-search{
+    color:gray;
+    align-items:start;
+    margin-left: 20px;
+  
+}
+.fa-microphone {
+    color:gray;
+    
+    margin-right: 20px;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right:25px;
+    width:50px;
+    height: 100%;
+    border: none;
+    margin:10px;
+
+   
+    
+    
+    
+}
+.fa-camera{
+    color:gray;
+    
+    margin-right: 20px;
+    position:absolute;
+    top:0;
+    bottom: 0;
+    right:0;
+    width:50px;
+    height: 100%;
+    border: none;
+    margin:10px;
+
+   
+    
+}
+.first{
+   text-align: center;
+   margin-top: 30px;
+   
+   
+}
+
+.fa-youtube{
+    color:red;
+    font-size: 50px;
+    size: 20px;
+    background-color:white;
+    /* color:red; */
+    text-align: center;
+    border-radius: 50%;
+    margin: 30px;
+   
+}
+.fa-facebook{
+    color:blue;
+    font-size: 50px;
+    background-color: white;
+    /* color:blue; */
+    border-radius: 50%;
+    /* border-radius: 50%; */
+    margin: 30px;
+}
+.fa-telegram
+{
+    color:rgb(57, 231, 231);
+    font-size: 50px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 30px;
+}
+.fa-twitter
+{ 
+    color:rgb(50, 103, 210);
+    font-size: 50px;
+    background-color: white;
+    margin: 30px;
+    
+    border-radius: 50%;
+}
+
+
+
